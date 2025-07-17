@@ -1,0 +1,27 @@
+{
+  "name": "attendance-system-contracts",
+  "version": "1.0.0",
+  "description": "Move smart contracts for decentralized attendance system",
+  "main": "index.js",
+  "scripts": {
+    "build": "aptos move compile",
+    "test": "aptos move test",
+    "deploy": "aptos move publish",
+    "dev": "aptos node run-local-testnet",
+    "clean": "aptos move clean",
+    "init": "aptos init --profile default"
+  },
+  "keywords": [
+    "move",
+    "aptos",
+    "blockchain",
+    "attendance",
+    "did",
+    "nfc"
+  ],
+  "author": "Hackathon Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+} 
